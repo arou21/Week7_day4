@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="./main.css">
+    <title>weather App</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <form>
+            <div>
+                <input type="text" id="city-name" placeholder="Chicago">
+                <!-- <button onclick="weather()">search</button> -->
+                <div class="d-grid gap-2">
+                    <button onclick="weather()" class="btn btn-primary" type="button">search</button>
+                </div>
+            </div>
+            <!-- <hr> -->
+        </form>
+        <div class="output-box">
+            <div class="box-3">Name:</div>
+            <div id="outputName">0</div>
+        </div>
+        <div class="output-box">
+            <div class="box-4">
+                <div>Temp:</div>
+            </div>
+            <div id="outputTemp">0</div>
+        </div>
+        <div class="output-box">
+            <div class="box-5">
+                <div>High:</div>
+            </div>
+            <div id="outputHigh">0</div>
+        </div>
+
+        <div class="output-box">
+            <div class="box-6">
+                <div>Low:</div>
+            </div>
+            <div id="outputLow">0</div>
+        </div>
+        <div class="output-box">
+            <div class="box-7">
+                <div>Forecast:</div>
+            </div>
+            <div id="outputForecast">0</div>
+        </div>
+
+        <div class="output-box">
+            <div class="box-8">
+                <div>Humidity:</div>
+            </div>
+            <div id="outputHumidity">0</div>
+        </div>
+
+    </div>
+</body>
+
+</html>

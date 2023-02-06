@@ -1,0 +1,84 @@
+
+   body {
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+   }
+
+   .container {
+    max-width: fit-content;
+    margin: 0 auto;
+   }
+
+
+
+.btn-primary {
+    background-color: #007aff;
+    width: 100%;
+    margin: 0 auto;
+    padding: 8px 0;
+    border: none;
+    color: #fff;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+/* .box-1 {
+    background-color: ;
+} */
+
+.box-2 {
+    background-color: blue;
+}
+
+.box-3 {
+    background-color: turquoise;
+}
+
+.box-4 {
+    background-color: beige;
+}
+
+.box-5 {
+    background-color: red;
+}
+
+.box-6 {
+    background-color: cornflowerblue;
+}
+
+.box-7 {
+    background-color: turquoise;
+
+}
+
+.box-8 {
+    background-color: green;
+    text-align: center;
+}
+
+input {
+    font-size: 14pt;
+}
+
+button {
+    font-size: 14px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+.output-box {
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.output-box div:first-child {
+    color: #fff;
+}
+
+.output-box div:last-child {
+    padding: 10px;
+}
